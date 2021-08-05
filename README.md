@@ -24,7 +24,7 @@ This project taught me the fundamentals of Flutter UI, and solidified my knowled
 
 ### Features & Ideas For The Future
 
-I would like to keep working on this idea and create some animation.
+I would like to keep working on this idea and create some animation for the buttons. I might consider adding a quick introduction page, or a "Get A Copy of My Resume" button.
 
 # Contact Me
 
