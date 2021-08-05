@@ -3,13 +3,13 @@ import 'package:url_launcher/url_launcher.dart';
 
 class LargeElevatedButton extends StatelessWidget {
   const LargeElevatedButton({
-    @required this.urlString,
+    @required this.url,
     @required this.text,
     this.icon,
     this.iconColor,
   });
 
-  final String urlString;
+  final String url;
   final String text;
   final IconData icon;
   final Color iconColor;
@@ -20,7 +20,7 @@ class LargeElevatedButton extends StatelessWidget {
     final iconColor = Colors.black;
     //
     return GestureDetector(
-      onTap: () => launch(urlString),
+      onTap: () => launch(url),
       child: Card(
         elevation: 14.0,
         margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 45.0),

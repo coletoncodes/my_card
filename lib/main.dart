@@ -55,32 +55,32 @@ class MyCard extends StatelessWidget {
                 LargeElevatedButton(
                   icon: Icons.phone,
                   text: 'Give Me A Call',
-                  urlString: 'tel://5014995908',
+                  url: 'tel://5014995908',
                 ),
                 LargeElevatedButton(
                   icon: Icons.mail,
                   text: 'Email Me',
-                  urlString: 'mailto:coletoncodes@gmail.com',
+                  url: 'mailto:coletoncodes@gmail.com',
                 ),
                 LargeElevatedButton(
                   icon: FontAwesomeIcons.linkedin,
                   text: 'Connect on Linkedin',
-                  urlString: 'https://www.linkedin.com/in/coletongorecke/',
+                  url: 'https://www.linkedin.com/in/coletongorecke/',
                 ),
                 LargeElevatedButton(
                   icon: FontAwesomeIcons.githubSquare,
                   text: 'Check Out My GitHub',
-                  urlString: 'https://www.github.com/coletoncodes',
+                  url: 'https://www.github.com/coletoncodes',
                 ),
                 LargeElevatedButton(
                   icon: FontAwesomeIcons.instagramSquare,
                   text: 'Follow Me On Instagram',
-                  urlString: 'https://www.instagram.com/coletongorecke',
+                  url: 'https://www.instagram.com/coletongorecke',
                 ),
                 LargeElevatedButton(
                   icon: Icons.web,
                   text: 'Check Out My Portfolio',
-                  urlString: 'https://www.coletoncodes.com',
+                  url: 'https://www.coletoncodes.com',
                 ),
               ],
             ),
