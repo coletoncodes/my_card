@@ -3,7 +3,7 @@
 
 This is just a simple application that stores all of my contact information.
 
-**You can preview the app [here](https://coletoncodes-wordpair.web.app).**
+**You can preview the app [here](https://coletoncodes-mycard.web.app).**
 
  This will open up a browser version of the application.
 
