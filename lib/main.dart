@@ -20,71 +20,69 @@ class MyCard extends StatelessWidget {
         ),
         child: Scaffold(
           backgroundColor: Colors.transparent,
-          body: SafeArea(
-            child: Container(
-              height: double.infinity,
-              width: double.infinity,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  CircleAvatar(
-                    radius: 50.0,
-                    foregroundImage: AssetImage('images/portrait.jpeg'),
+          body: Container(
+            height: double.infinity,
+            width: double.infinity,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircleAvatar(
+                  radius: 50.0,
+                  foregroundImage: AssetImage('images/portrait.jpeg'),
+                ),
+                Text(
+                  'Coleton Gorecke',
+                  style: TextStyle(
+                    fontFamily: 'ReenieBeanie',
+                    fontSize: 50.0,
+                    color: Colors.white,
                   ),
-                  Text(
-                    'Coleton Gorecke',
-                    style: TextStyle(
-                      fontFamily: 'ReenieBeanie',
-                      fontSize: 50.0,
-                      color: Colors.white,
-                    ),
+                ),
+                Text(
+                  'App Developer',
+                  style: TextStyle(
+                    fontFamily: 'Source Sans Pro',
+                    fontSize: 25.0,
+                    color: Colors.tealAccent,
+                    letterSpacing: 2.0,
+                    fontWeight: FontWeight.bold,
                   ),
-                  Text(
-                    'App Developer',
-                    style: TextStyle(
-                      fontFamily: 'Source Sans Pro',
-                      fontSize: 25.0,
-                      color: Colors.tealAccent,
-                      letterSpacing: 2.0,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 20.0,
-                    width: 150.0,
-                  ),
-                  LargeElevatedButton(
-                    icon: Icons.phone,
-                    text: 'Give Me A Call',
-                    urlString: 'tel://5014995908',
-                  ),
-                  LargeElevatedButton(
-                    icon: Icons.mail,
-                    text: 'Email Me',
-                    urlString: 'mailto:coletoncodes@gmail.com',
-                  ),
-                  LargeElevatedButton(
-                    icon: FontAwesomeIcons.linkedin,
-                    text: 'Connect on Linkedin',
-                    urlString: 'https://www.linkedin.com/coletongorecke',
-                  ),
-                  LargeElevatedButton(
-                    icon: FontAwesomeIcons.githubSquare,
-                    text: 'Check Out My GitHub',
-                    urlString: 'https://www.github.com/coletoncodes',
-                  ),
-                  LargeElevatedButton(
-                    icon: FontAwesomeIcons.instagramSquare,
-                    text: 'Follow Me On Instagram',
-                    urlString: 'https://www.instagram.com/coletongorecke',
-                  ),
-                  LargeElevatedButton(
-                    icon: Icons.web,
-                    text: 'Check Out My Portfolio',
-                    urlString: 'https://www.coletoncodes.com',
-                  ),
-                ],
-              ),
+                ),
+                SizedBox(
+                  height: 20.0,
+                  width: 150.0,
+                ),
+                LargeElevatedButton(
+                  icon: Icons.phone,
+                  text: 'Give Me A Call',
+                  urlString: 'tel://5014995908',
+                ),
+                LargeElevatedButton(
+                  icon: Icons.mail,
+                  text: 'Email Me',
+                  urlString: 'mailto:coletoncodes@gmail.com',
+                ),
+                LargeElevatedButton(
+                  icon: FontAwesomeIcons.linkedin,
+                  text: 'Connect on Linkedin',
+                  urlString: 'https://www.linkedin.com/in/coletongorecke/',
+                ),
+                LargeElevatedButton(
+                  icon: FontAwesomeIcons.githubSquare,
+                  text: 'Check Out My GitHub',
+                  urlString: 'https://www.github.com/coletoncodes',
+                ),
+                LargeElevatedButton(
+                  icon: FontAwesomeIcons.instagramSquare,
+                  text: 'Follow Me On Instagram',
+                  urlString: 'https://www.instagram.com/coletongorecke',
+                ),
+                LargeElevatedButton(
+                  icon: Icons.web,
+                  text: 'Check Out My Portfolio',
+                  urlString: 'https://www.coletoncodes.com',
+                ),
+              ],
             ),
           ),
         ),

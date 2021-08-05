@@ -1,7 +1,7 @@
 
 # What It Does
 
-This application uses the [English Words](https://pub.dev/packages/english_words) package, and takes two random words and puts them together in [Pascal Case](https://www.theserverside.com/definition/Pascal-case).
+This is just a simple application that stores all of my contact information.
 
 **You can preview the app [here](https://coletoncodes-wordpair.web.app).**
 
@@ -9,22 +9,26 @@ This application uses the [English Words](https://pub.dev/packages/english_words
 
 # What I Learned
 
-This project taught me the fundamentals of Flutter, Dart, and solidified my knowledge in [Material Design](https://material.io/develop/flutter).
+This project taught me the fundamentals of Flutter UI, and solidified my knowledge in [Material Design](https://material.io/develop/flutter).
 
 **Some other skills I learned/used with this project:**
-- Flutter Basics
-- Routing
-- Stateful & Stateless Widgets
-- Built In Widgets
-- Creating An Emulator in VSCode
+- How to create Stateless Widgets.
+- What is hot reload and hot refresh.
+- How to use Containers to lay out your UI.
+- How to use Columns and Rows to position your UI elements.
+- How to add custom fonts.
+- How to add Material icons.
+- How to style Text widgets.
+- How to read and use Flutter Documentation.
 - Creating a web build in Flutter.
 
 ### Features & Ideas For The Future
 
-I would like to keep working on this idea and create a baby name generator application. 
+I would like to keep working on this idea and create some animation.
 
 # Contact Me
 
 * [Email](mailto:coletoncodes@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/coletongorecke/)
 * [Instagram](https://www.instagram.com/coletongorecke)
+* [Website](https://www.coletoncodes.com)
