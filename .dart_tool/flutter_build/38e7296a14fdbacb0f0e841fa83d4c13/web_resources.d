@@ -1,0 +1,1 @@
+ build/web/icons/Icon-512.png build/web/icons/Icon-192.png build/web/manifest.json build/web/index.html build/web/favicon.png:  /home/coleton/Projects/my_card/web/icons/Icon-512.png /home/coleton/Projects/my_card/web/icons/Icon-192.png /home/coleton/Projects/my_card/web/manifest.json /home/coleton/Projects/my_card/web/index.html /home/coleton/Projects/my_card/web/favicon.png
